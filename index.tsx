@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import { LanguageProvider } from './contexts/languageContext';
-import { ThemeProvider } from './contexts/ThemeContext';
+import { ThemeProvider } from './contexts/themeContext';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
